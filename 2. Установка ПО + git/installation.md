@@ -20,10 +20,19 @@
 
 9. [Установка pgAdmin](#установка-pgadmin)
 
+# Видеоинструкция
+1) По текущей инструкции:
+https://nextcloud.croc.ru/s/8L4WYtznWcA2Qok
+
+2) Если не получилось - настройка виртуальной машины:
+https://nextcloud.croc.ru/s/kkx5WR8Qi8Y4waF
+
+Сама виртуальная машина (10 Гб):
+https://drive.google.com/file/d/1VLcpudp_6DUSQpYHh_IUcXnF_fX93lTW/view?usp=sharing
+
+
 # Создание иерархии каталогов веб-приложения
 
-## Видеоинструкция
-https://nextcloud.croc.ru/s/8L4WYtznWcA2Qok
 
 1. На диске `C` создадим каталог `web` с подкаталогами `apache`, `application`,
 `logs`, `php`. Каталог `apache` будет содержать в себе файлы веб-сервера Apache. 
@@ -58,7 +67,7 @@ https://nextcloud.croc.ru/s/8L4WYtznWcA2Qok
 # Установка и настройка Apache
 
 1. Для установки веб-сервера Apache, перейдем на страницу 
-[Apache Lounge](https://www.apachelounge.com/download/) с последней доступной бинарной сборкой для Windows `Apache 2.4.57 Win64`
+[Apache Lounge](https://www.apachelounge.com/download/) с последней доступной бинарной сборкой для Windows `Apache 2.4.57 Win64` (или позднее)
 
 2. На странице Apache Lounge указано, что перед установкой веб-сервера Apache 
 необходимо убедиться в том, что на локальной машине имеется пакет библиотек 
